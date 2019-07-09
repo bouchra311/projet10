@@ -1,0 +1,50 @@
+
+body{
+  margin-left: 250px;
+  margin-right: 250px;
+}
+p{
+  margin-left: 330px;
+  margin-right: 330px;
+}
+h1{
+  margin-left: 330px;
+  margin-right: 330px;
+}
+h2{
+  margin-left: 330px;
+  margin-right: 330px;
+
+}
+h3{
+  margin-left: 330px;
+  margin-right: 330px;
+}
+h4{
+  margin-left: 330px;
+  margin-right: 330px;
+}
+nav ul{
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+nav li{
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  border-right: 1px,solid;
+
+}
+.nav2 li{
+float: left;
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+display: inline-block;
+width: 250px;
+height: 60px;
+
+}
