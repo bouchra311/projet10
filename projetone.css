@@ -1,50 +1,208 @@
 
 body{
+  padding: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* 1ere ligne du site en haut de la barre de nav*/
+
+.sign{
+
+background-color: white;
+border: none;
+color:#AA55FF;
+
+}
+
+.get{
+border-radius: 5px;
+background-color: white;
+border-color:#AA55FF;
+color:#AA55FF ;
+display: inline-block;
+}
+
+.m{
+text-align: right;
+}
+
+.logom{
+  display: flex;
+  align-items: flex-start;
+  width: 40px;
+}
+/* Barre de nav avec petit logo OneZero*/
+
+.imgonezer {
+margin: 0px;
+padding: 0px;
+width: 130px;
+}
+
+nav ul{
+border-right: none;
+border-left: none;
+  height: 60px;
+  list-style-type: none;
+  border: 1px solid #e7e7e7;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  margin-top: 40px;
+  box-shadow: 4px 6px 3px #f0f0f0;
+
+
+}
+
+nav li{
+
+
+  font-size: 12px;
+  color: grey;
+  display: inline-block;
+  width: 170px;
+  height: 60px;
+
+
+}
+/* La petite photo de Harry et son petit texte*/
+
+.harry{
+
+margin-left: 270px;
+border-radius: 50px;
+width: 48px;
+
+}
+
+.guiness{
+font-size: 12px;
+}
+
+.july{
+color: grey;
+font-size: 10px;
+}
+
+.follow{
+font-size: 12px;
+background-color: white;
+border-color:#AA55FF;
+color:#AA55FF;
+border-radius: 5px;
+}
+/* La photo principale "paradise"*/
+.paradise{
+
+display: block;
+margin: auto;
+
+}
+
+figcaption{
   margin-left: 250px;
   margin-right: 250px;
+  font-size: 12px;
+  color: grey;
+  text-align: center;
 }
-p{
-  margin-left: 330px;
-  margin-right: 330px;
-}
+/* Les titres et les paragraphes*/
+
 h1{
-  margin-left: 330px;
-  margin-right: 330px;
+
+  font-weight: normal;
+  font-family: 'PT Serif', serif;
+  margin-left: 350px;
+  margin-right: 350px;
 }
+
 h2{
   margin-left: 330px;
   margin-right: 330px;
 
 }
+
 h3{
+  line-height: 20px;
+  font-weight: normal;
+  color: grey;
   margin-left: 330px;
   margin-right: 330px;
 }
+
 h4{
   margin-left: 330px;
   margin-right: 330px;
 }
-nav ul{
-  padding: 0px;
-  margin: 0px;
-  list-style-type: none;
+
+p{
+  margin-left: 330px;
+  margin-right: 330px;
 }
-nav li{
-  padding: 0px;
-  margin: 0px;
-  display: inline-block;
-  width: 250px;
-  height: 60px;
-  border-right: 1px,solid;
+
+/* Le fameux Y*/
+
+.y{
+float: left;
+font-size: 40px;
+background-color: black;
+color: white;
+border-radius: 55%;
+font-family: 'Roboto', sans-serif;
+padding: 4%;
+margin: 1%;
+}
+/* Les blockquotes */
+
+.first{
+  text-align: justify;
+  margin-left:280px;
+  margin-right: 280px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  font-size: 20px;
+}
+/* La petite barre de nav en bas*/
+
+.nav2 li{
+
+list-style-type: none;
+font-size: 13px;
+float: left;
+width: 100px;
+
 
 }
-.nav2 li{
-float: left;
-list-style-type: none;
-padding: 0px;
-margin: 0px;
-display: inline-block;
-width: 250px;
-height: 60px;
+
+.navfin{
+  display: inline;
+		float: left;
+    margin-left: 300px;
+    margin-right: 300px;
+		background-color:#F5F5F5 ;
+    border: none;
+}
+/* Les 3 fameux articles*/
+
+article{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 2%;
+margin: 2%;
+width: 40%;
+
+
+}
+
+.footer{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
 }

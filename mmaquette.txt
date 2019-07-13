@@ -1,0 +1,11 @@
+
+-Création d'une structure html
+-Lier le fichier HTML avec le fichier de stylesheet
+-Dans le fichiers HTML, j'ajoute:
+  -Le menu (barre de nav)
+  -Les titres,
+  -Le corp du texte,
+  -Les images,
+  -Le footer..
+
+-Ensuite je stylise les points ci-dessus.
